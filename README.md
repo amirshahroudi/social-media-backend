@@ -31,7 +31,7 @@ I tried to consider solid principle in this project.
 
 ### Auth
 
-| URI                   	| Method 	| authenticated 	| Parameters                                                              	|
+| URI                   	| Method 	| Authenticated 	| Parameters                                                              	|
 |-----------------------	|--------	|---------------	|-------------------------------------------------------------------------	|
 | `api/login`           	| `POST` 	| No            	| `*email *password`                                                    	|
 | `api/logout`          	| `POST` 	| Yes           	| -                                                                     	|
@@ -57,7 +57,7 @@ I tried to consider solid principle in this project.
 
 ###  User 
 
-| URI                           	| Method 	| authenticated 	| Parameters 	|
+| URI                           	| Method 	| Authenticated 	| Parameters 	|
 |-------------------------------	|--------	|---------------	|------------	|
 | `api/{username}/followers`    	| `GET`  	| Yes           	| -          	|
 | `api/{username}/followings`   	| `GET`  	| Yes           	| -          	|
