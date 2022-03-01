@@ -1,7 +1,7 @@
 
 # Social Media backend API
 
-This project built by Laravel and TDD approach.
+This project built by Laravel with Sanctum API tokens and TDD approach.
 
 This project is not yet complete but its features are:
 
@@ -28,6 +28,7 @@ Built reusable and reliable components with those actions and categorized them.
 I tried to consider solid principle in this project.
 ## API Reference
 * require parameters have *
+* When making requests using API tokens, the token should be included in the `Authorization` header as a `Bearer` token.
 
 ### Auth
 
