@@ -41,7 +41,7 @@ I tried to consider solid principle in this project.
 
 ### Profile 
 
-| URI                                   	| Method 	| Authenticated 	| Paramenters                             	|
+| URI                                   	| Method 	| Authenticated 	| Parameters                             	|
 |---------------------------------------	|--------	|---------------	|-----------------------------------------	|
 | `api/follow/{user_id}`                	| `POST` 	| Yes           	| -                                       	|
 | `api/unfollow/{user_id}`              	| `POST` 	| Yes           	| -                                       	|
@@ -68,7 +68,7 @@ I tried to consider solid principle in this project.
 
 ### Post 
 
-| URI                            	| Method       	| Authenticated 	| Paramenters          	| Description                                       	|
+| URI                            	| Method       	| Authenticated 	| Parameters          	| Description                                       	|
 |--------------------------------	|--------------	|---------------	|----------------------	|---------------------------------------------------	|
 | `api/posts`                    	| `POST`       	| Yes           	| `*caption *medias` 	| store a post `medias : jpeg , jpg`                	|
 | `api/posts`                    	| `GET`        	| Yes           	| -                    	| retrieve posts for homepage **not implemented**   	|
@@ -84,7 +84,7 @@ I tried to consider solid principle in this project.
 
 ### Comment
 
-| URI                                	| Method   	| Authenticated 	| Paramenters 	| Description                                                              	|
+| URI                                	| Method   	| Authenticated 	| Parameters 	| Description                                                              	|
 |------------------------------------	|----------	|---------------	|-------------	|--------------------------------------------------------------------------	|
 | `api/comments/{comment_id}`        	| `DELETE` 	| Yes           	| -           	| delete `comment_id` comment if you have written it or you are post owner 	|
 | `api/comments/{comment_id}/like`   	| `POST`   	| Yes           	| -           	| like `comment_id` comment                                                	|
